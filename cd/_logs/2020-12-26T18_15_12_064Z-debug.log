@@ -1,0 +1,43 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'react-native-progress-circlenpm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'react-native-progress-circle'
+1 verbose cli ]
+2 info using npm@6.14.6
+3 info using node@v12.18.3
+4 verbose npm-session 1ec8e4f795325670
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://registry.npmjs.org/install 779ms (from cache)
+8 http fetch GET 200 https://registry.npmjs.org/react-native-progress-circle 791ms (from cache)
+9 silly pacote tag manifest for install@latest fetched in 798ms
+10 silly pacote tag manifest for react-native-progress-circle@latest fetched in 798ms
+11 http fetch GET 404 https://registry.npmjs.org/react-native-progress-circlenpm 1380ms
+12 http fetch GET 404 https://registry.npmjs.org/react-native-progress-circlenpm 188ms
+13 silly fetchPackageMetaData error for react-native-progress-circlenpm@latest 404 Not Found - GET https://registry.npmjs.org/react-native-progress-circlenpm - Not found
+14 timing stage:rollbackFailedOptional Completed in 1ms
+15 timing stage:runTopLevelLifecycles Completed in 4652ms
+16 verbose stack Error: 404 Not Found - GET https://registry.npmjs.org/react-native-progress-circlenpm - Not found
+16 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-fetch\check-response.js:114:15
+16 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:97:5)
+17 verbose statusCode 404
+18 verbose pkgid react-native-progress-circlenpm@latest
+19 verbose cwd C:\RN Workspace\covidApp
+20 verbose Windows_NT 10.0.18363
+21 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "react-native-progress-circlenpm" "install" "--save" "react-native-progress-circle"
+22 verbose node v12.18.3
+23 verbose npm  v6.14.6
+24 error code E404
+25 error 404 Not Found - GET https://registry.npmjs.org/react-native-progress-circlenpm - Not found
+26 error 404
+27 error 404 'react-native-progress-circlenpm@latest' is not in the npm registry.
+28 error 404 You should bug the author to publish it (or use the name yourself!)
+29 error 404 Note that you can also install from a
+30 error 404 tarball, folder, http url, or git url.
+31 verbose exit [ 1, true ]
